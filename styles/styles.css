@@ -38,3 +38,11 @@ h1 {
     padding: 10px 20px;
     margin: 10px 40px 10px
 }
+
+.button:hover{
+    cursor: pointer;
+    background: rgb(113, 74, 74);
+}
+#progress{
+    font-size: 20px;
+}
