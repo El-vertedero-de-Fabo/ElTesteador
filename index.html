@@ -9,22 +9,30 @@
 </head>
 
 <body>
-    <div id = "quiz">
-        <h1> Malos olores de diseño </h1>
-        <hr>
-        <h2 id = "question">Pregunta </h2>
-        <div id = "choices">
-            <button class="button">Boton</button>
-            <button class="button">Boton</button>
-            <button class="button">Boton</button>
-        </div>
-        <hr>
+  <div class="quiz-container" id="quiz">
+    <div class="quiz-header">
+      <h2 id="question">El Testeador</h2>
+      <ul>
+        <li>
+          <input type="radio" name="answer" id="a" class="answer">
+          <label for="a" id="a_text">Answer</label>
+        </li>
 
-        <foolder>
-            <p id = "progress"> Pregunta asdasda</p>
-        </foolder>
+        <li>
+          <input type="radio" name="answer" id="b" class="answer">
+          <label for="b" id="b_text">Answer</label>
+        </li>
 
-    </div>    
-    <script src = "./app.js" type = "module"></script>
+        <li>
+          <input type="radio" name="answer" id="c" class="answer">
+          <label for="c" id="c_text">Answer</label>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+
+  <button  id="submit">submit</button>
+  <script src = "script.js" type = "module"></script>
 </body>
 </html>
